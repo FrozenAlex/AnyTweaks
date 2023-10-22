@@ -2,17 +2,16 @@
 #include "AnyTweaks.hpp"
 #include "AnyTweaksConfig.hpp"
 
-DEFINE_CONFIG(AnyTweaksConfig);
-
 Logger& getLogger() {
     static Logger* logger = new Logger(modInfo, LoggerOptions(false, true));
     return *logger;
 }
 
-extern "C" void setup(ModInfo& info) {
+extern "C" void setup(CModInfo& info) {
     info.id = ID;
     info.version = VERSION;
-    modInfo = info;
+    info.version_long = GIT_COMMIT;
+    modInfo.assign(info);
 	
     getAnyTweaksConfig().Init(modInfo);
     getLogger().info("Completed AnyTweaks setup!");

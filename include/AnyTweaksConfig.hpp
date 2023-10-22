@@ -20,24 +20,4 @@ DECLARE_CONFIG(AnyTweaksConfig,
     CONFIG_VALUE(GpuLevel, int, "GpuLevel", 4);
     CONFIG_VALUE(UsedGraphicsPresetBefore, bool, "UsedGraphicsPresetBefore", false);
     CONFIG_VALUE(SeenNoticeBefore, bool, "SeenNoticeBefore", false);
-
-    CONFIG_INIT_FUNCTION(
-        CONFIG_INIT_VALUE(Resolution);
-        CONFIG_INIT_VALUE(AntiAliasing);
-        CONFIG_INIT_VALUE(RefreshRate);
-        CONFIG_INIT_VALUE(Bloom);
-        CONFIG_INIT_VALUE(BloomQuality);
-        CONFIG_INIT_VALUE(Mirror);
-        CONFIG_INIT_VALUE(EnhancedLQMirror);
-        CONFIG_INIT_VALUE(Smoke);
-        CONFIG_INIT_VALUE(FpsCounter);
-        CONFIG_INIT_VALUE(LightBrightness);
-        CONFIG_INIT_VALUE(MenuFoveatedRenderingLevel);
-        CONFIG_INIT_VALUE(InGameFoveatedRenderingLevel);
-        CONFIG_INIT_VALUE(ColorSpace);
-        CONFIG_INIT_VALUE(CpuLevel);
-        CONFIG_INIT_VALUE(GpuLevel);
-        CONFIG_INIT_VALUE(UsedGraphicsPresetBefore);
-        CONFIG_INIT_VALUE(SeenNoticeBefore);
-    )
 )

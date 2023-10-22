@@ -1,11 +1,12 @@
 {
-  "_QPVersion": "0.1.1",
+  "_QPVersion": "1.1.0",
   "name": "AnyTweaks",
   "id": "${mod_id}",
+  "modloader": "Scotland2",
   "author": "Kaitlyn, xyonico",
   "version": "${version}",
   "packageId": "com.beatgames.beatsaber",
-  "packageVersion": "1.28.0_4124311467",
+  "packageVersion": "1.29.0_4466478251",
   "description": "Level up your Beat Saber experience on Quest! AnyTweaks provides various tweaks to help boost your experience on Quest, such as Bloom, FPS Counter and more.",
   "coverImage": "cover.png",
   "fileCopies": [
