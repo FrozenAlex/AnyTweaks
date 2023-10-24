@@ -7,7 +7,8 @@
     "version": "6.1.2",
     "url": null,
     "additionalData": {
-      "overrideSoName": "libanytweaks.so"
+      "overrideSoName": "libanytweaks.so",
+      "cmake": true
     }
   },
   "dependencies": [
@@ -19,6 +20,14 @@
         "extraFiles": [
           "src/inline-hook"
         ]
+      }
+    },
+    {
+      "id": "scotland2",
+      "versionRange": "^0.1.2",
+      "additionalData": {
+        "includeQmod": false,
+        "private": true
       }
     },
     {
